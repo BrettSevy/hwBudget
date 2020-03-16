@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <title>Budget Tracker</title>
+</head>
+<body>
+
+    <h1>Budget Tracker</h1>
+    <h2>Status: <span id="status" class="primary">Creating</span></h2>
+    <h4></h4>
+    <h4>Save</h4>
+    <div id="user-input">
+        <p>Title</p>
+        <input type="text" id="title" />
+        <br>
+        <p>Expense</p>
+        <textarea id="note"></textarea>
+        <div id="buttons">
+            <div id="action-button">
+                <button id="make-new">Submit</button>
+            </div>
+            <button id="clear-all">Delete All Transactions</button>
+        </div>
+    </div>
+
+    <div id="results"></div>
+
+
+    <script src="/assets/index.js"></script>
+    
+</body>
+</html>
