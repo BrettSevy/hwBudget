@@ -1,12 +1,14 @@
 var CACHE_NAME = 'cache-v1';
 
 var urlsToCache = [
+    "/",
     "/db.js",
     "/index.html",
     "/index.js",
     "/styles.css",
     "/icons/icon-192x192.png",
     "/icons/icon-512x512.png",
+    "/favicon.ico",
 ];
 
 
